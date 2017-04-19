@@ -1,2 +1,2 @@
 # git-pr
-alias for opening the relevant PR for your branch
+alias for opening the relevant PR for my current branch
