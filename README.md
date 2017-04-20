@@ -12,7 +12,7 @@ sudo ln -s ~/src/github.com/JonathanUsername/git-aliases/git-pr.sh /usr/local/bi
 git config --global alias.pr '!git-pr'
 ```
 
-requires:
+Requirements:
 - jq https://github.com/stedolan/jq
 - a ~/secrets.json file with your github api token replacing `MYTOKEN`:
 ```
