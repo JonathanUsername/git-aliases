@@ -1,5 +1,9 @@
 # git-aliases
 
+Some git aliases I use. 
+
+Made for mac, so might need tweaking (eg. the sed flags) for Linux machines.
+
 ## git-pr
 alias for opening the relevant PR for my current branch
 
@@ -9,8 +13,8 @@ git config --global alias.pr '!git-pr'
 ```
 
 requires:
-jq
-a ~/secrets.json file which looks like:
+- jq https://github.com/stedolan/jq
+- a ~/secrets.json file with your github api token replacing `MYTOKEN`:
 ```
 {"token": "MYTOKEN"}
 ```
