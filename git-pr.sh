@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# configure me!
 REPO=$(git remote get-url origin | sed -E 's/^git@github.com:|\.git$//g')
 
 TOKEN="$(cat ~/secrets.json | jq -r .token)"
