@@ -8,6 +8,13 @@ sudo ln -s ~/src/github.com/JonathanUsername/git-aliases/git-pr.sh /usr/local/bi
 git config --global alias.pr '!git-pr'
 ```
 
+requires:
+jq
+a ~/secrets.json file which looks like:
+```
+{"token": "MYTOKEN"}
+```
+
 
 ## git-repo
 alias for opening the github repo page of my current directory
