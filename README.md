@@ -1,8 +1,18 @@
-# git-pr
+# git-aliases
+
+## git-pr
 alias for opening the relevant PR for my current branch
 
+```
+sudo ln -s ~/src/github.com/JonathanUsername/git-aliases/git-pr.sh /usr/local/bin/git-pr
+git config --global alias.pr '!git-pr'
+```
+
+
+## git-repo
+alias for opening the relevant PR for my current branch
 
 ```
-sudo ln -s ~/src/github.com/JonathanUsername/git-pr/index.sh /usr/local/bin/git-pr
-git config --global alias.pr '!git-pr'
+sudo ln -s ~/src/github.com/JonathanUsername/git-aliases/git-repo.sh /usr/local/bin/git-repo
+git config --global alias.repo '!git-repo'
 ```
