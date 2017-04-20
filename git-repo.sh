@@ -1,5 +1,5 @@
 #!/bin/bash
 
-path=$(pwd)
+REPO=$(git remote get-url origin | sed -E 's/^git@github.com:|\.git$//g')
 
-[[ $path == *src/github.com/* ]] && open "http://www.${path#/Users/jonathan/src/}"
+open "http://www.github.com/$REPO"
